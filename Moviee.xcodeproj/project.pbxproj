@@ -14,6 +14,9 @@
 		81141C1F1C9D4BC600F599E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81141C1D1C9D4BC600F599E0 /* LaunchScreen.storyboard */; };
 		81141C2A1C9D4BC600F599E0 /* MovieeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81141C291C9D4BC600F599E0 /* MovieeTests.swift */; };
 		81141C351C9D4BC600F599E0 /* MovieeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81141C341C9D4BC600F599E0 /* MovieeUITests.swift */; };
+		81141C4B1C9D4D5D00F599E0 /* Moviee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81141C4A1C9D4D5D00F599E0 /* Moviee.swift */; };
+		81141C4D1C9D4F9300F599E0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81141C4C1C9D4F9300F599E0 /* Constants.swift */; };
+		81141C4F1C9D5A1400F599E0 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81141C4E1C9D5A1400F599E0 /* APIManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		81141C301C9D4BC600F599E0 /* MovieeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81141C341C9D4BC600F599E0 /* MovieeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieeUITests.swift; sourceTree = "<group>"; };
 		81141C361C9D4BC600F599E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81141C4A1C9D4D5D00F599E0 /* Moviee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Moviee.swift; sourceTree = "<group>"; };
+		81141C4C1C9D4F9300F599E0 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		81141C4E1C9D5A1400F599E0 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +133,8 @@
 		81141C421C9D4BDC00F599E0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				81141C4A1C9D4D5D00F599E0 /* Moviee.swift */,
+				81141C4E1C9D5A1400F599E0 /* APIManager.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -161,6 +169,7 @@
 		81141C471C9D4C2B00F599E0 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				81141C4C1C9D4F9300F599E0 /* Constants.swift */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -301,6 +310,9 @@
 			files = (
 				81141C171C9D4BC600F599E0 /* ViewController.swift in Sources */,
 				81141C151C9D4BC600F599E0 /* AppDelegate.swift in Sources */,
+				81141C4F1C9D5A1400F599E0 /* APIManager.swift in Sources */,
+				81141C4B1C9D4D5D00F599E0 /* Moviee.swift in Sources */,
+				81141C4D1C9D4F9300F599E0 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -527,6 +539,7 @@
 				81141C3B1C9D4BC600F599E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		81141C3C1C9D4BC600F599E0 /* Build configuration list for PBXNativeTarget "MovieeTests" */ = {
 			isa = XCConfigurationList;
@@ -535,6 +548,7 @@
 				81141C3E1C9D4BC600F599E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		81141C3F1C9D4BC600F599E0 /* Build configuration list for PBXNativeTarget "MovieeUITests" */ = {
 			isa = XCConfigurationList;
@@ -543,6 +557,7 @@
 				81141C411C9D4BC600F599E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
